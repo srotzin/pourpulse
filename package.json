@@ -1,1 +1,1 @@
-{"name":"pourpulse","scripts":{"build":"echo ok"}}
+{"name":"pourpulse","scripts":{"build":"mkdir -p dist && cp index.html pourpulse-logo.png dist/ 2>/dev/null; cp -r assets dist/ 2>/dev/null; echo 'done'"}}
